@@ -1,0 +1,192 @@
+body {
+	max-width:fit-content;
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+header{
+    padding: 15px;
+    text-align: left;
+    background-color:rgb(253, 101, 0);
+}
+
+h1 { font-size: 2.5em; font-family: Black,helvetica,arial,sans-serif; background-color: rgb(255, 255, 255); text-align: center; max-width: 70; padding: 15px;}
+h2 { font-size: 2.0em; font-family: Black,helvetica,arial,sans-serif; background-color: rgb(255, 255, 255); text-align: center; max-width: 70; }
+h3 { font-size: 1.5em; font-family: Black,helvetica,arial,sans-serif; background-color: rgb(255, 255, 255); max-width: 70; }
+p {
+    text-align: justify;
+    margin: 0 auto;
+    width: 70em;
+    font-size: 1em;font-family: Black,helvetica,arial,sans-serif; background-color: rgb(255, 255, 255); text-align: justify;
+}
+div {
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 70em;
+    font-size: 1em;font-family: Black,helvetica,arial,sans-serif; background-color: rgb(255, 255, 255); text-align: justify;
+}
+#startslides{
+   margin: 0 auto}
+
+table.tableexpertise{
+    display: flex;
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+   
+    table-layout: fixed;
+   
+}
+ .ueberblick th, .ueberblick td{
+    padding: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: thin solid rgb(15, 14, 14);
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:rgb(42, 55, 129)
+}
+
+table.ueberblick{
+    height: auto;
+    width: 100%;    
+}
+
+table.aboutus{
+
+}
+
+ .aboutus th, .aboutus td{
+    padding: 20px;
+    border-top: 1px solid rgb(0, 0, 0);
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+table.clients{
+    width: 100%;
+}
+
+.clients th, .clients td {
+    padding: 10px;
+    text-align: center;
+
+}
+table.portfolio{
+    border: none;
+    border-spacing: 10px;
+    
+}
+
+.portfolio th, .portfolio td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    max-width: 30em;
+}
+
+/*.topnav a{
+    float: right;
+    display: block;
+    padding: 15px 15px;
+    color:black;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*.topnav > .active > a { 
+    background-color: rgb(221, 212, 212) ; 
+}
+  }*/
+@media screen and (max-width: 800) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 370px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    
+    
+  } 
+  
+  nav li {
+    list-style: none;
+    margin: 0.5em;
+    padding: 0;
+    font-size: 1.5em;  
+  }
+  
+  @media (min-width: 45em) {
+    nav ul {	
+      flex-direction: row-reverse;  
+      
+    }
+    nav li {
+      font-size: 1em;
+      
+    }  
+  }
+  nav a {
+	display: block;
+	padding: 0.4em;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid rgb(224, 115, 25);
+	border-radius: 1.7px;
+	
+	color: rgb(255, 255, 255);
+	background-color: rgb(224, 115, 25);
+	transition: all .25s ease-in;
+}
+
+nav li[aria-current] a {
+	background-color: rgb(241, 129, 0);
+	color: rgba(209, 115, 8, 0.774);
+}
+
+nav a:focus,
+nav a:hover,
+nav li[aria-current] a:focus,
+nav li[aria-current] a:hover {
+	color: rgb(224, 115, 25);
+	background-color: rgb(0, 0, 0);
+}
+
+.topnav{
+    align-items: right;
+}
+.responsive{
+    width: 100%;
+  height: auto;
+}
+
+.a{
+    word-break: break-all;
+}
+table.fuss{
+   width: 100%;
+}
